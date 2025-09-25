@@ -1,0 +1,36 @@
+name: eeg_model
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2025.7.15=haa95532_0
+  - certifi=2022.12.7=py37haa95532_0
+  - openssl=1.1.1w=h2bbff1b_0
+  - pip=22.3.1=py37haa95532_0
+  - python=3.7.16=h6244533_0
+  - setuptools=65.6.3=py37haa95532_0
+  - sqlite=3.50.2=hda9a48d_1
+  - ucrt=10.0.22621.0=haa95532_0
+  - vc=14.3=h2df5915_10
+  - vc14_runtime=14.44.35208=h4927774_10
+  - vs2015_runtime=14.44.35208=ha6b5a95_10
+  - wheel=0.38.4=py37haa95532_0
+  - wincertstore=0.2=py37haa95532_2
+  - pip:
+      - cycler==0.11.0
+      - fonttools==4.38.0
+      - joblib==1.3.2
+      - kiwisolver==1.4.5
+      - matplotlib==3.5.3
+      - numpy==1.21.6
+      - opencv-python==4.12.0.88
+      - packaging==24.0
+      - pillow==9.5.0
+      - pyparsing==3.1.4
+      - python-dateutil==2.9.0.post0
+      - scikit-learn==1.0.2
+      - scipy==1.7.3
+      - six==1.17.0
+      - threadpoolctl==3.1.0
+      - torch==1.13.1
+      - typing-extensions==4.7.1
+prefix: E:\Anaconda\envs\eeg_model

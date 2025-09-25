@@ -1,0 +1,9 @@
+Contact the official team of BCMI from SJTU (https://bcmi.sjtu.edu.cn/~seed/seed-iv.html) for the original SEED-IV dataset. They'll send you an email a few days after registration.
+
+Copy the 'eeg_feature_smooth' and 'eye_feature_smooth' folders from the SEED-IV dataset along with 'channel_62_pos.locs' to this folder.
+
+To ensure strict sample-label correspondence, pre-save the file lists and corresponding labels in standardized formats (.json/.npy), following the input specifications of the 'convert_mat_to_npy' module.
+
+Execute the 'convert_locs_to_npy' module followed by 'convert_mat_to_npy' module sequentially to obtain
+- 2D electrode coordinates
+- Model-ready training samples
